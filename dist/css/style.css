@@ -16,6 +16,7 @@ body {
   padding: 0px;
   overflow-x: visible;
   font-family: "Oswald";
+  background-color: #555;
 }
 
 #header {
@@ -23,7 +24,6 @@ body {
   text-shadow: rgba(0, 0, 0, 0.75) -1px -1px 1px;
   font-family: "Oswald";
   font-size: 15px;
-  border-bottom: 1px solid rgb(245, 245, 245);
 }
 
 .w-menu {
@@ -45,18 +45,32 @@ nav .sidenav-trigger {
   margin-top: 20px;
 }
 
+.navbar-fixed {
+  position: absolute;
+  z-index: 999999999;
+  margin: 0 auto;
+}
+
 #index-banner {
-  background-image: url(../img/banner.jpg);
+  background-image: url(../img/banner.webp);
   background-size: cover;
   background-position: top center;
   height: 100vh;
   background-repeat: no-repeat;
   width: 100%;
+  margin-top: -80px;
+}
+.hero-text {
+  margin: 12.5rem auto;
+}
+.bd {
+  border: 1px solid;
 }
 
+/*Mobile - Tablet*/
 @media (max-width: 31.25rem) {
   #index-banner {
-    background-image: url(../img/banner.jpg);
+    background-image: url(../img/banner.webp);
     background-position: right -110px center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,6 +79,12 @@ nav .sidenav-trigger {
   .brand-logo {
     text-align: center;
     font-size: 1.5rem !important;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  .container {
+    width: 100%;
   }
 }
 /*Desktop*/
@@ -75,5 +95,8 @@ nav .sidenav-trigger {
   }
   nav {
     font-size: ‭1.5625‬rem;
+  }
+  .hero-text {
+    margin-top: 20rem;
   }
 }
