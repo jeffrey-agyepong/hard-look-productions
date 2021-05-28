@@ -27,20 +27,20 @@ class Header extends HTMLElement {
                   </a>
                 </li>
                 <li>
+                  <a href="index.html#music" class="white-text">
+                    Music
+                  </a>
+                <li>
                   <a href="index.html" class="white-text">
                     Services
                   </a>
                 </li>
                 <li>
-                  <a href="" class="white-text">
+                  <a href="index.html#projects" class="white-text">
                     Projects
                   </a>
                 </li>
-                <li>
-                  <a href="" class="white-text">
-                    Testimonials
-                  </a>
-                </li>
+
                 <li>
                   <a href="" class="white-text">
                     Contact
@@ -61,16 +61,16 @@ class Header extends HTMLElement {
               <ul class="tabs tabs-transparent center hide-on-med-and-down">
                 <li class="tab">
 
-                  <a href="index.html">About</a>
+                  <a href="">About</a>
+                </li>
+                <li class="tab">
+                  <a href="index.html#music">Music</a>
                 </li>
                 <li class="tab">
                   <a href="index.html">Services</a>
                 </li>
                 <li class="tab">
-                  <a href="">Projects</a>
-                </li>
-                <li class="tab">
-                  <a href="index.html">Testimonials</a>
+                  <a href="index.html#projects">Projects</a>
                 </li>
                 <li class="tab">
                   <a href="">Contact</a>
