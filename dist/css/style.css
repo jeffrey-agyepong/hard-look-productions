@@ -67,6 +67,17 @@ nav .sidenav-trigger {
   border: 1px solid;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  margin: auto;
+  grid-gap: 0.625rem;
+}
+
+.page-section {
+  padding: 2.5rem;
+}
+
 /*Mobile - Tablet*/
 @media (max-width: 31.25rem) {
   #index-banner {
@@ -98,5 +109,8 @@ nav .sidenav-trigger {
   }
   .hero-text {
     margin-top: 20rem;
+  }
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
