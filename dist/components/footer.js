@@ -4,7 +4,7 @@ class Footer extends HTMLElement {
   }
 
   connectedCallback(){
-  this.innerHTML=`<div class="footer bg-dark section">
+  this.innerHTML=`<div class="footer black section">
   <!--<div class="grid-container center" id="social-mob">
    <a href="https://www.facebook.com/cntxtband/" target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
 
