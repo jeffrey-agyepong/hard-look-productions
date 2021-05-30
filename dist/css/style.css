@@ -90,11 +90,14 @@ nav .sidenav-trigger {
   height: 100%;
   max-width: 400px;
   max-height: 400px;
-  padding: 1px;
+  padding: 8px 5px;
 }
 .bg-dark{
   background: #202e40;
 }
+
+
+/*Form*/
 
 
 /*Mobile - Tablet*/
@@ -132,4 +135,5 @@ nav .sidenav-trigger {
   .grid-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
 }
