@@ -22,7 +22,7 @@ class Header extends HTMLElement {
 
               <ul id="nav-mobile" class="sidenav black center sticky">
                 <li>
-                  <a href="index.html" class="white-text">
+                  <a href="index.html#about" class="white-text">
                     About
                   </a>
                 </li>
@@ -31,7 +31,7 @@ class Header extends HTMLElement {
                     Music
                   </a>
                 <li>
-                  <a href="index.html" class="white-text">
+                  <a href="index.html#services" class="white-text">
                     Services
                   </a>
                 </li>
@@ -42,7 +42,7 @@ class Header extends HTMLElement {
                 </li>
 
                 <li>
-                  <a href="" class="white-text">
+                  <a href="index.html#contact" class="white-text">
                     Contact
                   </a>
                 </li>
@@ -61,19 +61,19 @@ class Header extends HTMLElement {
               <ul class="tabs tabs-transparent center hide-on-med-and-down">
                 <li class="tab">
 
-                  <a href="">About</a>
+                  <a href="index.html#about">About</a>
                 </li>
                 <li class="tab">
                   <a href="index.html#music">Music</a>
                 </li>
                 <li class="tab">
-                  <a href="index.html">Services</a>
+                  <a href="index.html#services">Services</a>
                 </li>
                 <li class="tab">
                   <a href="index.html#projects">Projects</a>
                 </li>
                 <li class="tab">
-                  <a href="">Contact</a>
+                  <a href="index.html#contact">Contact</a>
                 </li>
               </ul>
             </div>
