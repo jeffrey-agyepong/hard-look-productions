@@ -25,7 +25,9 @@ body {
 p{
   font-family: "Monitorica Regular";
 }
-
+.small {
+  font-variant: small-caps;
+}
 #header {
   box-shadow: rgb(81, 87, 90) 0px -1px 0px 0px inset;
   text-shadow: rgba(0, 0, 0, 0.75) -1px -1px 1px;
@@ -80,6 +82,12 @@ nav .sidenav-trigger {
   margin: auto;
   grid-gap: 0.625rem;
 }
+.grid-container-1 {
+  display: grid;
+  grid-template-columns: auto;
+  margin: auto;
+  grid-gap: 0.625rem;
+}
 
 .page-section {
   padding: 2.5rem;
@@ -108,6 +116,16 @@ nav .sidenav-trigger {
 .form-pad{
   padding: 2rem 3rem 0 3rem;
   margin: 2rem;
+}
+.contact-method{
+  position: relative;
+  margin: 0 0 2em 0;
+  padding-left: 3.25em
+}
+.contact-method .icon{
+  top:0;
+  position: absolute;
+  left: 0;
 }
 
 /*Mobile - Tablet*/
@@ -144,6 +162,11 @@ nav .sidenav-trigger {
   }
   .grid-container {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .pd{
+    padding-left: 12.5rem;
+    padding-right: 12.5rem;
   }
 
 }
