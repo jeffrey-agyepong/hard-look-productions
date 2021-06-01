@@ -17,7 +17,8 @@ class Header extends HTMLElement {
                 href="https://beyondthegravemusic.com"
                 class="brand-logo center"
               >
-                HL Productions
+
+              <img src="dist/img/hardlook.webp" class="responsive-img logo">
               </a>
 
               <ul id="nav-mobile" class="sidenav black center sticky">
@@ -60,20 +61,19 @@ class Header extends HTMLElement {
             <div class="nav-content">
               <ul class="tabs tabs-transparent center hide-on-med-and-down">
                 <li class="tab">
-
-                  <a href="index.html#about">About</a>
+                  <a href="index.html#about" class="nav-font">About</a>
                 </li>
                 <li class="tab">
-                  <a href="index.html#music">Music</a>
+                  <a href="index.html#music" class="nav-font">Music</a>
                 </li>
                 <li class="tab">
-                  <a href="index.html#services">Services</a>
+                  <a href="index.html#services" class="nav-font">Services</a>
                 </li>
                 <li class="tab">
-                  <a href="index.html#projects">Projects</a>
+                  <a href="index.html#projects" class="nav-font">Projects</a>
                 </li>
                 <li class="tab">
-                  <a href="index.html#contact">Contact</a>
+                  <a href="index.html#contact" class="nav-font">Contact</a>
                 </li>
               </ul>
             </div>

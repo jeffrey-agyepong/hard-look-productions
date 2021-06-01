@@ -34,7 +34,9 @@ p{
   font-family: "Oswald";
   font-size: 15px;
 }
-
+.nav-font{
+  font-size: 1.25rem !important;
+}
 .w-menu {
   width: 100%;
 }
@@ -107,11 +109,13 @@ nav .sidenav-trigger {
   background-image: url(../img/studio.jpg);
   background-size: cover;
   background-position: top center;
-  height: 100vh;
+  height: 150vh;
   background-repeat: no-repeat;
   width: 100%;
 }
-
+.logo{
+  width: 40%;
+}
 /*Form*/
 .form-pad{
   padding: 2rem 3rem 0 3rem;
@@ -126,6 +130,50 @@ nav .sidenav-trigger {
   top:0;
   position: absolute;
   left: 0;
+}
+[type="submit"] {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    width: 100%;
+    background: #020e64;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+.feedback-input {
+  color: #212121;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px !important;
+  line-height: 22px !important;
+  background-color: white;
+  transition: all 0.3s !important;
+  padding: 13px !important;
+  margin-bottom: 15px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  outline: 0 !important;
+}
+
+.feedback-input:focus {
+  border: 2px solid#020e64;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+/*Footer*/
+.footer{
+  border-top:5px solid #040e5a;
 }
 
 /*Mobile - Tablet*/
