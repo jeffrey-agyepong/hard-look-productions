@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Monitorica Regular';
+  font-family: "Monitorica Regular";
   src: url(monitorica.regular.otf);
 }
 * {
@@ -22,7 +22,7 @@ body {
 
   background-color: #555;
 }
-p{
+p {
   font-family: "Monitorica Regular";
 }
 .small {
@@ -34,7 +34,7 @@ p{
   font-family: "Oswald";
   font-size: 15px;
 }
-.nav-font{
+.nav-font {
   font-size: 1.25rem !important;
 }
 .w-menu {
@@ -102,10 +102,10 @@ nav .sidenav-trigger {
   max-height: 400px;
   padding: 8px 5px;
 }
-.bg-dark{
+.bg-dark {
   background: #202e40;
 }
-.bg_image{
+.bg_image {
   background-image: url(../img/studio.jpg);
   background-size: cover;
   background-position: top center;
@@ -113,38 +113,38 @@ nav .sidenav-trigger {
   background-repeat: no-repeat;
   width: 100%;
 }
-.logo{
+.logo {
   width: 40%;
 }
 /*Form*/
-.form-pad{
+.form-pad {
   padding: 2rem 3rem 0 3rem;
   margin: 2rem;
 }
-.contact-method{
+.contact-method {
   position: relative;
   margin: 0 0 2em 0;
-  padding-left: 3.25em
+  padding-left: 3.25em;
 }
-.contact-method .icon{
-  top:0;
+.contact-method .icon {
+  top: 0;
   position: absolute;
   left: 0;
 }
 [type="submit"] {
-    font-family: "Montserrat", Arial, Helvetica, sans-serif;
-    width: 100%;
-    background: #020e64;
-    border-radius: 5px;
-    border: 0;
-    cursor: pointer;
-    color: white;
-    font-size: 24px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    transition: all 0.3s;
-    margin-top: -4px;
-    font-weight: 700;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: #020e64;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
 }
 .feedback-input {
   color: #212121;
@@ -172,8 +172,8 @@ textarea {
 }
 
 /*Footer*/
-.footer{
-  border-top:5px solid #040e5a;
+.footer {
+  border-top: 5px solid #040e5a;
 }
 
 /*Mobile - Tablet*/
@@ -190,7 +190,13 @@ textarea {
     font-size: 1.5rem !important;
   }
   h1 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.7rem;
   }
   .container {
     width: 100%;
@@ -212,9 +218,8 @@ textarea {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .pd{
+  .pd {
     padding-left: 12.5rem;
     padding-right: 12.5rem;
   }
-
 }
