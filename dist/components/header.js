@@ -15,10 +15,11 @@ class Header extends HTMLElement {
             <div class="nav-wrapper container w-menu">
               <a
                 href="https://beyondthegravemusic.com"
-                class="brand-logo center"
+
               >
 
-              <img src="dist/img/hardlook.webp" class="responsive-img logo">
+              <!--<img src="dist/img/hardlook.webp" class="responsive-img logo">-->
+              <h1 class="white-text center brand-logo text-logo">HL PRODUCTIONS</h1>
               </a>
 
               <ul id="nav-mobile" class="sidenav black center sticky">
